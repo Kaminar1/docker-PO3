@@ -30,6 +30,6 @@ When setting up your container in Unraid, you must configure a few key settings:
 
 - **Port Mapping:**  
   The container exposes port `25565` (the default Minecraft server port).  
-  **Map port `25565` on your Unraid host to port `25565` in the container** so that you can connect to the server.
+  **Map port `25565` (or port of your choice) on your Unraid host to port `25565` in the container** so that you can connect to the server.
 
 
