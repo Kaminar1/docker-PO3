@@ -34,6 +34,7 @@ online-mode=true
 white-list=false
 max-players=20
 motd=A Minecraft Server
+level-type=SKYLANDS
 EOF
 fi
 
@@ -52,6 +53,10 @@ fi
 if [[ -n "$ONLINE_MODE" ]]; then
     sed -i "s/online-mode=.*/online-mode=$ONLINE_MODE/" /data/server.properties
 fi
+if [[ -n "$LEVEL_TYPE" ]]; then
+    sed -i "s/^level-type=.*/level-type=$LEVEL_TYPE/" /data/server.properties
+fi
+
 echo "[]" > whitelist.json
 IFS=',' read -ra USERS <<< "$WHITELIST_USERS"
 for raw_username in "${USERS[@]}"; do

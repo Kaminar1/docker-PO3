@@ -13,6 +13,7 @@ When setting up your container in Unraid, you must configure a few key settings:
 - **Environment Variables:**  
   Configure the following environment variables:
   - **EULA**: Set to `true` to accept the Minecraft EULA.
+  - **LEVEL_TYPE**: (Optional) Set to `SKYLANDS`(default), `botania-skyblock` or `lostcities`.
   - **MOTD**: (Optional) Server message of the day.
   - **ENABLE_WHITELIST**: (Optional) Set to `true` or `false` to enable/disable whitelist support.
   - **ALLOW_FLIGHT**: (Optional) Set to `true` or `false` to allow flight.
