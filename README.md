@@ -3,7 +3,7 @@
 Container with the purpose to run PO3(version PO3-3.4.11F) on UnRaid. 
 
 [CurseForge - Project Ozone 3 A New Way Forward](https://www.curseforge.com/minecraft/modpacks/project-ozone-3-a-new-way-forward)  
-[CurseForge - This server file version: PO3-3.4.11F](https://www.curseforge.com/minecraft/modpacks/project-ozone-3-a-new-way-forward/files/4345063)
+[CurseForge - This server file version: PO3-3.4.11Fserver](https://www.curseforge.com/minecraft/modpacks/project-ozone-3-a-new-way-forward/files/4345112)  
 
 
 ## Usage in Unraid
